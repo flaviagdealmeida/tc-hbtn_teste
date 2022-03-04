@@ -1,9 +1,7 @@
-package email;
-
 public class Program {
 	public static void main(String[] args) {
 
-		System.out.println("Teste de email v·lido");
+		System.out.println("Teste de email v√°lido");
 		boolean isValidEmail = TesteEmail.testar_email_com_arroba();
 		System.out.println(isValidEmail);
 
