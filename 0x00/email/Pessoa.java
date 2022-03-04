@@ -1,5 +1,3 @@
-package email;
-
 public class Pessoa {
 	
 	private String email;
