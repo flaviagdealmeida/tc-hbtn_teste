@@ -17,7 +17,7 @@ public class OperacaoBasicaTeste {
 		return  OperacaoBasica.numero_primo(4).equals("N�mero v�lido, mas o numero n�o � primo")? true: false;
 	}
 	public static boolean testar_primo_menor_zero() {
-		return  OperacaoBasica.numero_primo(-2).equals("N�mero invalido. Numero menor ou igual a 1 n�o � primo")? true: false;
+		return  OperacaoBasica.numero_primo(-2).equals("N�mero invalido. Numero menor ou igual a 1 n�o � primo")? false: true;
 	}
 	public static boolean testar_primo() {
 		return  OperacaoBasica.numero_primo(7).equals("Numero v�lido, o numero � primo")? true: false;
