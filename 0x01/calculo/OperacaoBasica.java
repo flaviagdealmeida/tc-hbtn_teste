@@ -1,6 +1,5 @@
-
 public class OperacaoBasica {
-	private  static int cont;
+
 
 	public static double somar(double valor1, double valor2) {
 		return valor1 + valor2;
@@ -27,19 +26,12 @@ public class OperacaoBasica {
 		if (valor1 <= 1) {
 			 return "Número invalido. Numero menor ou igual a 1 não é primo";
 		}
-		for (int i = 0; i < valor1; i++) {
-			cont = 0;
-			if (valor1 % i == 0) {
-				cont++;
-			}
-
-			if (cont == 2) {
-				return "Numero válido, o numero é primo";
-			} else {
-				return "Número válido, mas não é primo";
-			}
-
+		
+		if (valor1 % 2 == 0) {
+			return "Número válido, mas o numero não é primo";
+		}else {
+			return "Numero válido, o numero é primo";
 		}
-		return null;
+	
 	}
 }
