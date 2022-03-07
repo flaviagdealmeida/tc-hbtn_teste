@@ -14,13 +14,13 @@ public class OperacaoBasicaTeste {
 		return OperacaoBasica.dividir(9, 3) == 3 ? true: false;
 	}
 	public static boolean testar_nao_primo() {
-		return  OperacaoBasica.numero_primo(4).equals("N�mero v�lido, mas o numero n�o � primo")? true: false;
+		return  OperacaoBasica.numero_primo(4).equals("Número válido, mas o numero não é primo")? true: false;
 	}
 	public static boolean testar_primo_menor_zero() {
-		return  OperacaoBasica.numero_primo(-2).equals("N�mero invalido. Numero menor ou igual a 1 n�o � primo")? false: true;
+		return  OperacaoBasica.numero_primo(-2).equals("Número invalido. Numero menor ou igual a 1 não é primo")? false: true;
 	}
 	public static boolean testar_primo() {
-		return  OperacaoBasica.numero_primo(7).equals("Numero v�lido, o numero � primo")? true: false;
+		return  OperacaoBasica.numero_primo(7).equals("Numero válido, o numero é primo")? true: false;
 	}
 	public static boolean testar_sqrt() {
 		return  OperacaoBasica.sqrt(49) == 7 ? true: false;
