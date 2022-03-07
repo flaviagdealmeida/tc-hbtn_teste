@@ -25,7 +25,7 @@ public class OperacaoBasica {
 	public static String numero_primo(double valor1) {
 
 		if (valor1 <= 1) {
-			 return "N�mero invalido. Numero menor ou igual a 1 n�o � primo";
+			 return "Número invalido. Numero menor ou igual a 1 não é primo";
 		}
 		for (int i = 0; i < valor1; i++) {
 			cont = 0;
@@ -34,9 +34,9 @@ public class OperacaoBasica {
 			}
 
 			if (cont == 2) {
-				return "Numero v�lido, o numero � primo";
+				return "Numero válido, o numero é primo";
 			} else {
-				return "N�mero v�lido, mas n�o � primo";
+				return "Número válido, mas não é primo";
 			}
 
 		}
