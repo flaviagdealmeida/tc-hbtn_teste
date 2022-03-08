@@ -2,8 +2,8 @@ import java.time.LocalDate;
 
 public class Person {
 
-	private String nome;
-	private String surnome;
+	private String name;
+	private String surname;
 	private int birthDate;
 	private boolean anotherCompanyOwner;
 	private boolean Pensioner;
@@ -14,16 +14,16 @@ public class Person {
 		
 	}
 	
-	public Person(String nome, String surnome, int birthDate, float salary) {
+	public Person(String name, String surname, int birthDate, float salary) {
 		super();
-		this.nome = nome;
-		this.surnome = surnome;
+		this.name = name;
+		this.surname = surname;
 		this.birthDate = birthDate;
 		this.salary = salary;
 	}
 
 	public String fullName() {
-		return nome+" "+surnome;
+		return name+" "+surname;
 	}
 	
 	public float calculateYearlySalary() {
@@ -47,16 +47,16 @@ public class Person {
 		return nome;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public String getSurnome() {
-		return surnome;
+	public String getSurname() {
+		return surname;
 	}
 
-	public void setSurnome(String surnome) {
-		this.surnome = surnome;
+	public void setSurname(String surname) {
+		this.surname = surname;
 	}
 
 	public int getBirthDate() {
