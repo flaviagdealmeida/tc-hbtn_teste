@@ -43,8 +43,8 @@ public class Person {
 		return false;
 	}
 
-		public String getNome() {
-		return nome;
+		public String getName() {
+		return name;
 	}
 
 	public void setName(String name) {
