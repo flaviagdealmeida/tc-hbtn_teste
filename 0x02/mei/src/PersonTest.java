@@ -9,8 +9,8 @@ public class PersonTest {
 	@BeforeEach
 	public void setup() {
 	pessoa = new Person();
-	pessoa.setNome("Paul");
-	pessoa.setSurnome("McCartney");
+	pessoa.setName("Paul");
+	pessoa.setSurname("McCartney");
 	pessoa.setBirthDate(1947);
 
 
